@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(179, 36, 36);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 500px;
+  /* //  height: 600px; */
+    background-color: rgb(43, 37, 37);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.logo{
+    height: 70px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.main .email_div,.password_div{
+    margin-left: 20px;
+    text-align: center;
+}
+.main h3{
+    text-align: left;
+    padding-left: 45px;
+}
+.main_2{
+    text-align: right;
+}
+.main input{
+    color: white;
+    height: 45px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.main_2 .left_div{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.main_2 .left_div .check_box{
+    width: 25px;
+}
+
+.left_div p{
+    margin-top: 20px;
+    
+}
+.main_2 .forgot_passsword{
+    color: white;
+    font-size: 25px;
+}
+
+.main_2 .left_div .login_p{
+    font-size: 200;
+    padding-left: 200px;
+     
+}
+
+.forgot_passsword{
+    color: white;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.main_2 .left_div button{
+    background-color: rgb(43, 37, 37);
+    height: 50px;
+    width:120px;
+    border-radius: 2px;
+    border: 2px solid white;
+    text-align: right;
+    color: rgb(250, 225, 225);
+    margin-left: 30%;
+    margin-top: 30px;
+    font-size: 20px;
+    padding:  10px 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.open_source{
+    text-align: center;
+}
+.open_source{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-content: space-between;
+    padding: 20px;
+    margin-left: 30%;
+}
+
+.open_source a{
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+
+}
+.main .last_image{
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 40%;
+}
+
+.main input{
+    color: black;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+   
+}
+
+.login_back{
+    margin-top: 10px;
+    text-align: center;
+}
+
+ 

@@ -22,3 +22,22 @@ body{
 .left_dev img{
     width: 50px;
 }
+.right_div{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(214, 193, 193);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(238, 70, 4, 0.2);
+    color: black;
+
+
+}
+.main{
+    justify-content: space-between;
+    display: flex;
+}
+.right_div{
+    text-align: left;
+}

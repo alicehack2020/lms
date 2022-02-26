@@ -103,3 +103,12 @@ body{
     padding-left: 40%;
 }
 
+.main input{
+    color: black;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+   
+}
