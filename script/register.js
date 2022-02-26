@@ -39,18 +39,19 @@ function registerData()
     }  
 }
 
-async function loadData(name,email,password,user_name,mobile,info)
+async function loadData(name,email,password,username,mobile,info)
 {
 
     let obj={
         "name": name,
         "email": email,
         "password": password,
-        "username": user_name,
+        "username": username,
         "mobile": mobile,
         "description": info
 }
 
+console.log(obj);
     const res = await fetch("https://masai-api-mocker.herokuapp.com/auth/register", {
 	method: "POST",
 	body: JSON.stringify(obj),
